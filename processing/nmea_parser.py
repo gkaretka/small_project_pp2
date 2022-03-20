@@ -4,7 +4,6 @@ nmea_codes_length = 7
 
 
 class PositioningData:
-
     def get_lat(self):
         return self.gprmc_obj.current_latitude
 
