@@ -3,7 +3,6 @@ from math import floor
 
 
 class GPRMC:
-
     def __init__(self, row_data):
         slitted_data = str(row_data).split(",")
         self.name = slitted_data[0]
@@ -52,7 +51,6 @@ class GPRMC:
 
 
 class GPGGA:
-
     def __init__(self, row_data):
         slitted_data = str(row_data).split(",")
         self.name = slitted_data[0]
@@ -79,7 +77,6 @@ class GPGSV:
 
 
 class GPVTG:
-
     def __init__(self, row_data):
         slitted_data = str(row_data).split(",")
         self.name = slitted_data[0]
