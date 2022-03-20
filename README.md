@@ -1,5 +1,5 @@
 # small_project_pp2
-Small project in python for data visualisation
+Small project in python for data visualisation. Parse NMEA data and display it with `folium`.
 
 How to test:
 * In order to run it use [nbviewer link with loaded notebook](https://nbviewer.org/github/gkaretka/small_project_pp2/blob/main/runner.ipynb)
